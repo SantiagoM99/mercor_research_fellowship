@@ -1,0 +1,82 @@
+{
+  "tasks": 100,
+  "criteria": 1140,
+  "domains": {
+    "Legal": {
+      "tasks": 25,
+      "criteria": 247,
+      "dependent_criteria": 82,
+      "primary_criteria": 178,
+      "type_combinations": {
+        "Style": 3,
+        "Extraction (recall)": 54,
+        "Reasoning": 44,
+        "Extraction (recall) + Reasoning": 146
+      },
+      "mean_criteria": 9.88,
+      "primary_share_pct": 72.06477732793522
+    },
+    "Medicine": {
+      "tasks": 25,
+      "criteria": 419,
+      "dependent_criteria": 238,
+      "primary_criteria": 349,
+      "type_combinations": {
+        "Extraction (recall) + Reasoning": 60,
+        "Reasoning": 309,
+        "Extraction (recall)": 50
+      },
+      "mean_criteria": 16.76,
+      "primary_share_pct": 83.29355608591885
+    },
+    "Consulting": {
+      "tasks": 25,
+      "criteria": 242,
+      "dependent_criteria": 111,
+      "primary_criteria": 181,
+      "type_combinations": {
+        "Extraction (recall) + Reasoning": 177,
+        "Reasoning": 61,
+        "Style": 4
+      },
+      "mean_criteria": 9.68,
+      "primary_share_pct": 74.79338842975207
+    },
+    "Finance": {
+      "tasks": 25,
+      "criteria": 232,
+      "dependent_criteria": 110,
+      "primary_criteria": 80,
+      "type_combinations": {
+        "Extraction (recall) + Reasoning": 178,
+        "Reasoning": 46,
+        "Extraction (recall)": 8
+      },
+      "mean_criteria": 9.28,
+      "primary_share_pct": 34.48275862068966
+    }
+  },
+  "dependent_criteria": 541,
+  "tasks_with_dependencies": 93,
+  "raw_type_combinations": {
+    "[\"Style\"]": 7,
+    "[\"Extraction (recall)\"]": 112,
+    "[\"Reasoning\"]": 460,
+    "[\"Extraction (recall)\", \"Reasoning\"]": 423,
+    "[\"Reasoning\", \"Extraction (recall)\"]": 138
+  },
+  "human_rating_values": {
+    "false": 1136,
+    "true": 4
+  },
+  "weight_values": {
+    "Primary objective(s)": 788,
+    "Not primary objective": 352
+  },
+  "invalid_dependency_references": [],
+  "dependency_cycles": [],
+  "provenance": {
+    "dataset_revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+    "csv_sha256": "71b241d2884457534856a831b640a0e4de7734c9a8f46b7d35174ee4b74320c9"
+  }
+}

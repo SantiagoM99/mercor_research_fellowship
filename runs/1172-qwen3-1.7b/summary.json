@@ -1,0 +1,545 @@
+{
+  "model": "qwen3:1.7b",
+  "manifest": {
+    "schema_version": 2,
+    "created_utc": "2026-09-12T05:25:13.043204+00:00",
+    "provider": "ollama",
+    "model": "qwen3:1.7b",
+    "repeats": 3,
+    "shuffle_seed": 20260912,
+    "temperature": 0.01,
+    "max_output_tokens": 512,
+    "thinking_budget": null,
+    "context": "Pinned public example: criterion description and response only; English grading prompt.",
+    "study_status": "exploratory_unreviewed_stimuli",
+    "task_families": 1,
+    "human_review_status": "pending",
+    "expected_labels_status": "stimulus_design_not_expert_gold",
+    "fixture_sha256": "ecd87c76c58c40ddc5f6563b8ae7fda9d0201eb90c9435b9f595a42be480b197",
+    "template_sha256": "0f126c1c033b5b409a49e36c564de5eca96f27e0b5103ce66a2edd581b638fbf",
+    "requests_sha256": "6c02a782e73291ad8589f541711e96066dc74ee2708606e54a4c29a49962aa1e",
+    "planned_calls": 108,
+    "limitation": "Not a reproduction of the production leaderboard; no population-level inference.",
+    "base_url": "http://127.0.0.1:11434",
+    "thinking": false,
+    "context_window": 4096,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "planned": 108,
+  "valid": 108,
+  "unresolved": 0,
+  "failed_attempts": 0,
+  "model_versions_observed": [
+    "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7"
+  ],
+  "cells": [
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 1,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 1,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 2,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 2,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 3,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 3,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 4,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 4,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 5,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 5,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 6,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 6,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 1,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 1,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 2,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 2,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 3,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 3,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 4,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 4,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 5,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 5,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 6,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 6,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 1,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 1,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 2,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 2,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 3,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 3,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 4,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 4,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 5,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 0,
+      "pass_fraction": 0.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 5,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 6,
+      "language": "en",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 6,
+      "language": "es",
+      "planned": 3,
+      "valid": 3,
+      "passes": 3,
+      "pass_fraction": 1.0,
+      "expected_from_design": 1
+    }
+  ],
+  "complete_cell_contrasts": [
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 1,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 2,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 3,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 4,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 5,
+      "es_minus_en": 1.0,
+      "cross_language_disagreement_all_repeat_pairs": 1.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-complete",
+      "criterion_id": 6,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 1,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 2,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 3,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 4,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 5,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-missing_risk",
+      "criterion_id": 6,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 1,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 2,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 3,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 4,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 5,
+      "es_minus_en": 1.0,
+      "cross_language_disagreement_all_repeat_pairs": 1.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    },
+    {
+      "pair_id": "1172-wrong_sam",
+      "criterion_id": 6,
+      "es_minus_en": 0.0,
+      "cross_language_disagreement_all_repeat_pairs": 0.0,
+      "within_en_disagreement": 0.0,
+      "within_es_disagreement": 0.0
+    }
+  ],
+  "interpretation": "One task family; descriptive only; references are stimulus-design labels, not expert gold."
+}

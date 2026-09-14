@@ -1,0 +1,3 @@
+# Numeric-rule adherence in the local comparison
+
+Observed results from four local models: six numeric criteria from three selected APEX tasks, three values per criterion, three response languages and three repeats (648 calls). Left: approvals of out-of-range values (21 judgments per model/language). Right: rejections of acceptable values (33 judgments per model/language). Counts are repeated judgments, not independent tasks. English rubric/instructions; EN/ES is primary and PT secondary. Numeric references follow published rubric predicates; independent language review is pending. No population inference or leaderboard claim. The separate full-response replication contributes another 432 calls.

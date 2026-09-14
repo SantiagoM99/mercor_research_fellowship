@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-12T06:08:29.684196+00:00",
+  "note": "Recorded during the first model run; protocol and plans were written before inspecting expanded-study outcomes. Not an external preregistration.",
+  "files": {
+    "scripts/model_comparison.py": "97c869e4aba98c94d6eec2e58b4ca6cb2b25448c2d3a23416bda28fad58f95e7",
+    "scripts/judge_pilot.py": "80b519fac60c0b8f91243aecbfa643b732dde7d09fdd1667bdcbdeba985323d8",
+    "scripts/ollama_backend.py": "555858bc8055d8ffaaabfb40e1e6d8c3f166e015f07f1e8964d446d1b3cf5e6e",
+    "experiments/local-comparison-v1.json": "2c1e424ae7f444ca246f787a2f8d966172785974dac0c80cd2bcc3b09d0e1a61",
+    "docs/Experimento comparativo local.md": "78b94c2fd931b4bbd4e7c3177a11e10613ff3a1b5ccb65bf7482cde5d159d269"
+  }
+}

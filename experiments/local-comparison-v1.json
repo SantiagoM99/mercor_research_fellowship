@@ -1,0 +1,172 @@
+{
+  "study_id": "local-comparison-v1",
+  "models": [
+    "qwen3:1.7b",
+    "qwen3:4b",
+    "qwen3:8b",
+    "gemma3:4b"
+  ],
+  "repeats": 3,
+  "seed": 20260913,
+  "primary_languages": [
+    "en",
+    "es"
+  ],
+  "secondary_languages": [
+    "pt"
+  ],
+  "selection": "Convenience selection before this expanded run: six explicit numeric predicates from three public tasks, including the previously explored 1172 and 2287. Task 2145 targets are copied from rubrics, not independently recomputed.",
+  "human_review_status": "pending",
+  "probes": [
+    {
+      "task_id": "1172",
+      "criterion_id": 2,
+      "lower": "53806552",
+      "upper": "53806554",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "53806553"
+        },
+        {
+          "name": "valid_edge",
+          "value": "53806554"
+        },
+        {
+          "name": "outside",
+          "value": "53806555"
+        }
+      ],
+      "responses": {
+        "en": "The total number of people interested in this genre of toy products in the US in 2032 is {value}.",
+        "es": "El número total de personas interesadas en este género de juguetes en Estados Unidos en 2032 es {value}.",
+        "pt": "O número total de pessoas interessadas neste gênero de brinquedos nos Estados Unidos em 2032 é {value}."
+      }
+    },
+    {
+      "task_id": "1172",
+      "criterion_id": 4,
+      "lower": "269032763",
+      "upper": "269032763",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "269032763"
+        },
+        {
+          "name": "near_error",
+          "value": "269032764"
+        },
+        {
+          "name": "far_error",
+          "value": "270032763"
+        }
+      ],
+      "responses": {
+        "en": "The serviceable available market (SAM) in the US in 2032 is USD {value}.",
+        "es": "El mercado disponible atendible (SAM) en Estados Unidos en 2032 es USD {value}.",
+        "pt": "O mercado disponível atendível (SAM) nos Estados Unidos em 2032 é USD {value}."
+      }
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "lower": "-2.4",
+      "upper": "-2.2",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "-2.3"
+        },
+        {
+          "name": "valid_edge",
+          "value": "-2.4"
+        },
+        {
+          "name": "outside",
+          "value": "-2.5"
+        }
+      ],
+      "responses": {
+        "en": "The net present value (NPV) of KatNip at a 20% discount rate is USD {value} million.",
+        "es": "El valor presente neto (NPV) de KatNip con una tasa de descuento del 20% es USD {value} millones.",
+        "pt": "O valor presente líquido (NPV) da KatNip com uma taxa de desconto de 20% é USD {value} milhões."
+      }
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 6,
+      "lower": "2.8",
+      "upper": "3.0",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "2.9"
+        },
+        {
+          "name": "valid_edge",
+          "value": "2.8"
+        },
+        {
+          "name": "outside",
+          "value": "2.7"
+        }
+      ],
+      "responses": {
+        "en": "The sale value required for KatNip to achieve a 15% internal rate of return (IRR) is USD {value} million.",
+        "es": "El valor de venta requerido para que KatNip alcance una tasa interna de retorno (IRR) del 15% es USD {value} millones.",
+        "pt": "O valor de venda necessário para a KatNip atingir uma taxa interna de retorno (IRR) de 15% é USD {value} milhões."
+      }
+    },
+    {
+      "task_id": "2145",
+      "criterion_id": 1,
+      "lower": "0.60",
+      "upper": "0.62",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "0.61"
+        },
+        {
+          "name": "valid_edge",
+          "value": "0.60"
+        },
+        {
+          "name": "outside",
+          "value": "0.59"
+        }
+      ],
+      "responses": {
+        "en": "Coupang's beta is {value}.",
+        "es": "La beta de Coupang es {value}.",
+        "pt": "O beta da Coupang é {value}."
+      }
+    },
+    {
+      "task_id": "2145",
+      "criterion_id": 10,
+      "lower": "8.7",
+      "upper": "8.9",
+      "variants": [
+        {
+          "name": "nominal",
+          "value": "8.8"
+        },
+        {
+          "name": "valid_edge",
+          "value": "8.7"
+        },
+        {
+          "name": "outside",
+          "value": "8.6"
+        }
+      ],
+      "responses": {
+        "en": "Coupang's weighted average cost of capital (WACC) is {value}%.",
+        "es": "El costo promedio ponderado de capital (WACC) de Coupang es {value}%.",
+        "pt": "O custo médio ponderado de capital (WACC) da Coupang é {value}%."
+      }
+    }
+  ]
+}

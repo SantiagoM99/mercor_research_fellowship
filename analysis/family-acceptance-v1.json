@@ -1,0 +1,370 @@
+{
+  "config": {
+    "study_id": "family-acceptance-v1",
+    "seed": 20260913,
+    "replications": 5000,
+    "family_counts": [
+      16,
+      45,
+      150
+    ],
+    "criteria_per_family": 10,
+    "true_rates": [
+      0.01,
+      0.02,
+      0.05,
+      0.1
+    ],
+    "dependence": [
+      "independent",
+      "perfectly_correlated"
+    ],
+    "alpha": 0.05,
+    "comparisons": 6,
+    "refutation": "Any unadjusted family-event undercoverage above 6% stops adoption pending investigation",
+    "scope": "Simulated labels for implementation and precision; not model judgments or empirical Mercor evidence"
+  },
+  "code_sha256": "d674bf58010094c503f871537c9901d3cc585ea9fb5494c4f5f4e019f66eefe6",
+  "scenarios": [
+    {
+      "families": 16,
+      "true_mean_error": 0.01,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.09561792499119552,
+      "naive_pooled_undercoverage": 0.0,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.01,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.01,
+      "naive_pooled_undercoverage": 0.0,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.02,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.1829271931124531,
+      "naive_pooled_undercoverage": 0.042,
+      "family_event_undercoverage": 0.042,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.02,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.02,
+      "naive_pooled_undercoverage": 0.729,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.05,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.4012630607616211,
+      "naive_pooled_undercoverage": 0.0376,
+      "family_event_undercoverage": 0.016,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.05,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.05,
+      "naive_pooled_undercoverage": 0.4434,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.1,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.6513215599000001,
+      "naive_pooled_undercoverage": 0.0344,
+      "family_event_undercoverage": 0.0202,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 16,
+      "true_mean_error": 0.1,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.1,
+      "naive_pooled_undercoverage": 0.1872,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.01,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.09561792499119552,
+      "naive_pooled_undercoverage": 0.0144,
+      "family_event_undercoverage": 0.0144,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.01,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.01,
+      "naive_pooled_undercoverage": 0.6348,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.02,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.1829271931124531,
+      "naive_pooled_undercoverage": 0.0194,
+      "family_event_undercoverage": 0.0238,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.02,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.02,
+      "naive_pooled_undercoverage": 0.3932,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.05,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.4012630607616211,
+      "naive_pooled_undercoverage": 0.0314,
+      "family_event_undercoverage": 0.0416,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.05,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.05,
+      "naive_pooled_undercoverage": 0.3322,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.1,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.6513215599000001,
+      "naive_pooled_undercoverage": 0.0452,
+      "family_event_undercoverage": 0.0404,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 45,
+      "true_mean_error": 0.1,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.1,
+      "naive_pooled_undercoverage": 0.3304,
+      "family_event_undercoverage": 0.0098,
+      "family_mean_undercoverage": 0.0098,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.01,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.09561792499119552,
+      "naive_pooled_undercoverage": 0.0374,
+      "family_event_undercoverage": 0.0452,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.01,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.01,
+      "naive_pooled_undercoverage": 0.2168,
+      "family_event_undercoverage": 0.0,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.02,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.1829271931124531,
+      "naive_pooled_undercoverage": 0.0358,
+      "family_event_undercoverage": 0.0434,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.02,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.02,
+      "naive_pooled_undercoverage": 0.4204,
+      "family_event_undercoverage": 0.0502,
+      "family_mean_undercoverage": 0.0502,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.05,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.4012630607616211,
+      "naive_pooled_undercoverage": 0.0402,
+      "family_event_undercoverage": 0.0372,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.05,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.05,
+      "naive_pooled_undercoverage": 0.3722,
+      "family_event_undercoverage": 0.0186,
+      "family_mean_undercoverage": 0.0186,
+      "adjusted_family_mean_undercoverage": 0.005
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.1,
+      "dependence": "independent",
+      "replications": 5000,
+      "family_event_risk": 0.6513215599000001,
+      "naive_pooled_undercoverage": 0.0422,
+      "family_event_undercoverage": 0.037,
+      "family_mean_undercoverage": 0.0,
+      "adjusted_family_mean_undercoverage": 0.0
+    },
+    {
+      "families": 150,
+      "true_mean_error": 0.1,
+      "dependence": "perfectly_correlated",
+      "replications": 5000,
+      "family_event_risk": 0.1,
+      "naive_pooled_undercoverage": 0.3514,
+      "family_event_undercoverage": 0.0286,
+      "family_mean_undercoverage": 0.0286,
+      "adjusted_family_mean_undercoverage": 0.0064
+    }
+  ],
+  "zero_error_bounds": [
+    {
+      "families": 16,
+      "comparisons": 1,
+      "upper_error_bound": 0.17074972298248092
+    },
+    {
+      "families": 16,
+      "comparisons": 6,
+      "upper_error_bound": 0.2586024063272125
+    },
+    {
+      "families": 45,
+      "comparisons": 1,
+      "upper_error_bound": 0.06440428880778351
+    },
+    {
+      "families": 45,
+      "comparisons": 6,
+      "upper_error_bound": 0.10092489519824051
+    },
+    {
+      "families": 150,
+      "comparisons": 1,
+      "upper_error_bound": 0.019773438164508446
+    },
+    {
+      "families": 150,
+      "comparisons": 6,
+      "upper_error_bound": 0.03141265235708821
+    },
+    {
+      "families": 237,
+      "comparisons": 1,
+      "upper_error_bound": 0.012560668513494628
+    },
+    {
+      "families": 237,
+      "comparisons": 6,
+      "upper_error_bound": 0.01999772618453233
+    }
+  ],
+  "minimum_samples": [
+    {
+      "error_limit": 0.02,
+      "comparisons": 1,
+      "minimum_error_free_families": 149
+    },
+    {
+      "error_limit": 0.02,
+      "comparisons": 6,
+      "minimum_error_free_families": 237
+    },
+    {
+      "error_limit": 0.02,
+      "comparisons": 24,
+      "minimum_error_free_families": 306
+    },
+    {
+      "error_limit": 0.05,
+      "comparisons": 1,
+      "minimum_error_free_families": 59
+    },
+    {
+      "error_limit": 0.05,
+      "comparisons": 6,
+      "minimum_error_free_families": 94
+    },
+    {
+      "error_limit": 0.05,
+      "comparisons": 24,
+      "minimum_error_free_families": 121
+    }
+  ],
+  "simulation_check_passed": true,
+  "limitation": "Coverage argument requires independent family sampling and correct labels. Monte Carlo scenarios do not establish these assumptions for APEX."
+}

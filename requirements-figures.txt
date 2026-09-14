@@ -1,0 +1,4 @@
+# Versions used to export the observed figures and proposal PDFs.
+matplotlib==3.11.2
+numpy==2.5.3
+reportlab==5.0.1

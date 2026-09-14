@@ -1,0 +1,173 @@
+{
+  "study_id": "boundary-format-v1-extraction-scope",
+  "generated_utc": "2026-09-14T00:21:07.727203+00:00",
+  "code_sha256": "535c370e433757543699875ca7bc1faf69505eee8317c05a1c3ffca92eafe03c",
+  "pairs": [
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "criterion": "States that the average impressions per $ for the Fixed Price payment method as 9.15. (Acceptable range is 9.05 to 9.25)",
+      "pair": [
+        {
+          "response": "The average number of impressions per dollar for the Fixed Price payment method is 9.15.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "9.15",
+            "unit": "",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The average number of impressions per dollar for the Performance Based payment method is 9.15.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "9.15",
+            "unit": "",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "criterion": "Calculates NPS for Gen Z as -28 (acceptable range is - 29 to - 27).",
+      "pair": [
+        {
+          "response": "The Net Promoter Score (NPS) for Gen Z is -28.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "-28",
+            "unit": "",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The Net Promoter Score (NPS) for Millennials is -28.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "-28",
+            "unit": "",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "criterion": "Determines the IRR of KatNip as 17.9%. (acceptable range of 17.8% to 18.0%).",
+      "pair": [
+        {
+          "response": "The internal rate of return (IRR) of KatNip is 17.9%.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "17.9",
+            "unit": "%",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The internal rate of return (IRR) of AnotherCo is 17.9%.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "17.9",
+            "unit": "%",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "criterion": "Determines the MOIC of KatNip as 1.5x. (acceptable range of 1.4x to 1.6x).",
+      "pair": [
+        {
+          "response": "The multiple on invested capital (MOIC) of KatNip is 1.5x.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "1.5",
+            "unit": "x",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The multiple on invested capital (MOIC) of AnotherCo is 1.5x.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "1.5",
+            "unit": "x",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "criterion": "Determines NPV at a 20% discount rate of KatNip as -$2.3MM. (acceptable range of -$2.4MM to -$2.2MM).",
+      "pair": [
+        {
+          "response": "The net present value (NPV) of KatNip at a 20% discount rate is -2.3 million dollars.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "-2.3",
+            "unit": "million dollars",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The net present value (NPV) of AnotherCo at a 20% discount rate is -2.3 million dollars.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "-2.3",
+            "unit": "million dollars",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "criterion": "Determines NPV at a 10% discount rate of KatNip as $10.9MM. (acceptable range of $10.8MM to $11.0MM).",
+      "pair": [
+        {
+          "response": "The net present value (NPV) of KatNip at a 10% discount rate is 10.9 million dollars.",
+          "expected_from_design": 1,
+          "result": {
+            "verdict": 1,
+            "value": "10.9",
+            "unit": "million dollars",
+            "reason": "parsed_explicit_claim"
+          }
+        },
+        {
+          "response": "The net present value (NPV) of AnotherCo at a 10% discount rate is 10.9 million dollars.",
+          "expected_from_design": 0,
+          "result": {
+            "verdict": 1,
+            "value": "10.9",
+            "unit": "million dollars",
+            "reason": "parsed_explicit_claim"
+          }
+        }
+      ]
+    }
+  ],
+  "correct_controls_approved": 6,
+  "wrong_target_controls_approved": 6,
+  "pair_count": 6,
+  "limitation": "Constructed context controls, not expert gold or natural responses. Confirms that the restricted numeric parser is not a complete rubric grader."
+}

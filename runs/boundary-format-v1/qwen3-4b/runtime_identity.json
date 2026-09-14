@@ -1,0 +1,21 @@
+{
+  "provider": "ollama",
+  "server_version": "0.33.2",
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "model_details_sha256": "043516ac7acfaadb2b3ef7463e010e73b4a03a15b856b4c41bc2afdd7f01ee89",
+  "model_size_bytes": 2497293931,
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen3",
+    "families": [
+      "qwen3"
+    ],
+    "parameter_size": "4.0B",
+    "quantization_level": "Q4_K_M",
+    "context_length": 262144,
+    "embedding_length": 2560
+  },
+  "configuration_sha256": "9c97c126b8c7f7639f08ab4c3bd64998dc452befe3173925302a3857a50bb497"
+}

@@ -1,0 +1,2172 @@
+{
+  "model": "qwen3:4b",
+  "planned": 192,
+  "valid": 186,
+  "unresolved": 6,
+  "errors": 39,
+  "error_rate_on_valid": 0.20967741935483872,
+  "planned_error_range": [
+    0.203125,
+    0.234375
+  ],
+  "false_approvals": 6,
+  "unmet_valid": 72,
+  "false_rejections": 33,
+  "met_valid": 114,
+  "attempts": 198,
+  "failed_attempts": 12,
+  "conditions": [
+    {
+      "notation": "decimal",
+      "planned": 96,
+      "valid": 96,
+      "unresolved": 0,
+      "errors": 6,
+      "error_rate_on_valid": 0.0625,
+      "planned_error_range": [
+        0.0625,
+        0.0625
+      ],
+      "false_approvals": 0,
+      "unmet_valid": 36,
+      "false_rejections": 6,
+      "met_valid": 60
+    },
+    {
+      "notation": "scientific",
+      "planned": 96,
+      "valid": 90,
+      "unresolved": 6,
+      "errors": 33,
+      "error_rate_on_valid": 0.36666666666666664,
+      "planned_error_range": [
+        0.34375,
+        0.40625
+      ],
+      "false_approvals": 6,
+      "unmet_valid": 36,
+      "false_rejections": 27,
+      "met_valid": 54
+    }
+  ],
+  "nominal": {
+    "planned": 36,
+    "valid": 36,
+    "unresolved": 0,
+    "errors": 9,
+    "error_rate_on_valid": 0.25,
+    "planned_error_range": [
+      0.25,
+      0.25
+    ],
+    "false_approvals": 0,
+    "unmet_valid": 0,
+    "false_rejections": 9,
+    "met_valid": 36
+  },
+  "boundary_excluding_nominal": {
+    "planned": 84,
+    "valid": 78,
+    "unresolved": 6,
+    "errors": 24,
+    "error_rate_on_valid": 0.3076923076923077,
+    "planned_error_range": [
+      0.2857142857142857,
+      0.35714285714285715
+    ],
+    "false_approvals": 0,
+    "unmet_valid": 0,
+    "false_rejections": 24,
+    "met_valid": 78
+  },
+  "boundary_role_overlap": "Coincident nominal/inside values deduplicated and excluded from boundary-versus-nominal contrast.",
+  "equal_family_error_on_valid": 0.2863247863247863,
+  "families": [
+    {
+      "task_id": "1122",
+      "planned": 30,
+      "valid": 30,
+      "unresolved": 0,
+      "errors": 15,
+      "error_rate_on_valid": 0.5,
+      "planned_error_range": [
+        0.5,
+        0.5
+      ],
+      "false_approvals": 0,
+      "unmet_valid": 12,
+      "false_rejections": 15,
+      "met_valid": 18
+    },
+    {
+      "task_id": "145",
+      "planned": 42,
+      "valid": 39,
+      "unresolved": 3,
+      "errors": 9,
+      "error_rate_on_valid": 0.23076923076923078,
+      "planned_error_range": [
+        0.21428571428571427,
+        0.2857142857142857
+      ],
+      "false_approvals": 0,
+      "unmet_valid": 12,
+      "false_rejections": 9,
+      "met_valid": 27
+    },
+    {
+      "task_id": "2287",
+      "planned": 120,
+      "valid": 117,
+      "unresolved": 3,
+      "errors": 15,
+      "error_rate_on_valid": 0.1282051282051282,
+      "planned_error_range": [
+        0.125,
+        0.15
+      ],
+      "false_approvals": 6,
+      "unmet_valid": 48,
+      "false_rejections": 9,
+      "met_valid": 69
+    }
+  ],
+  "cells": [
+    {
+      "pair_id": "1122-c1-v0-decimal",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-30",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-30",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v0-scientific",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-30",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-30",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v1-decimal",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-29",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-29",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v1-scientific",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-29",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-29",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v2-decimal",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-28",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-28",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v2-scientific",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-28",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-28",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v3-decimal",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-27",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-27",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v3-scientific",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-27",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-27",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v4-decimal",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-26",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-26",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "1122-c1-v4-scientific",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-26",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-26",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v0-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.04",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "9.04",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v0-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.04",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "9.04",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v1-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.05",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.05",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v1-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.05",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 0,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": null,
+      "unstable": null,
+      "repeat_disagreement": null,
+      "checker": {
+        "verdict": 1,
+        "value": "9.05",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v2-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.06",
+      "roles": [
+        "lower_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.06",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v2-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.06",
+      "roles": [
+        "lower_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.06",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v3-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.15",
+      "roles": [
+        "nominal"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.15",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v3-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.15",
+      "roles": [
+        "nominal"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.15",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v4-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.24",
+      "roles": [
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.24",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v4-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.24",
+      "roles": [
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.24",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v5-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.25",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.25",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v5-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.25",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "9.25",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v6-decimal",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.26",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "9.26",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "145-c2-v6-scientific",
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.26",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "9.26",
+        "unit": "",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v0-decimal",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.7",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "17.7",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v0-scientific",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.7",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "17.7",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v1-decimal",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.8",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "17.8",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v1-scientific",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.8",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "17.8",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v2-decimal",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.9",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "17.9",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v2-scientific",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.9",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "17.9",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v3-decimal",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.0",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "18.0",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v3-scientific",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.0",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 0,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": null,
+      "unstable": null,
+      "repeat_disagreement": null,
+      "checker": {
+        "verdict": 1,
+        "value": "18.0",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v4-decimal",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "18.1",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c1-v4-scientific",
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "18.1",
+        "unit": "%",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v0-decimal",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.3",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "1.3",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v0-scientific",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.3",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "1.3",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v1-decimal",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.4",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.4",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v1-scientific",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.4",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.4",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v2-decimal",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.5",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.5",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v2-scientific",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.5",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.5",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v3-decimal",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.6",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.6",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v3-scientific",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.6",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 3,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "1.6",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v4-decimal",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.7",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "1.7",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c2-v4-scientific",
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.7",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "1.7",
+        "unit": "x",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v0-decimal",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.7",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "10.7",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v0-scientific",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.7",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 3,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "10.7",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v1-decimal",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.8",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "10.8",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v1-scientific",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.8",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "10.8",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v2-decimal",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.9",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "10.9",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v2-scientific",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.9",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "10.9",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v3-decimal",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.0",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "11.0",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v3-scientific",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.0",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "11.0",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v4-decimal",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "11.1",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c3-v4-scientific",
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 3,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "11.1",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v0-decimal",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.5",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-2.5",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v0-scientific",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.5",
+      "roles": [
+        "lower_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-2.5",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v1-decimal",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.4",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.4",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v1-scientific",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.4",
+      "roles": [
+        "lower_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.4",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v2-decimal",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.3",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.3",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v2-scientific",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.3",
+      "roles": [
+        "lower_inside",
+        "nominal",
+        "upper_inside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.3",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v3-decimal",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.2",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.2",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v3-scientific",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.2",
+      "roles": [
+        "upper_endpoint"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 1,
+      "valid": 3,
+      "planned": 3,
+      "passes": 3,
+      "errors": 0,
+      "majority": 1,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 1,
+        "value": "-2.2",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v4-decimal",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "decimal",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-2.1",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    },
+    {
+      "pair_id": "2287-c5-v4-scientific",
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.1",
+      "roles": [
+        "upper_outside"
+      ],
+      "notation": "scientific",
+      "expected_from_design": 0,
+      "valid": 3,
+      "planned": 3,
+      "passes": 0,
+      "errors": 0,
+      "majority": 0,
+      "unstable": false,
+      "repeat_disagreement": 0.0,
+      "checker": {
+        "verdict": 0,
+        "value": "-2.1",
+        "unit": "million dollars",
+        "reason": "parsed_explicit_claim"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-26",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-27",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-28",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-29",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "value": "-30",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.04",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.05",
+      "complete": false,
+      "changed": null,
+      "decimal_verdict": 1,
+      "scientific_verdict": null,
+      "expected": 1,
+      "repeat_disagreement": null
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.06",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.15",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.24",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.25",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "value": "9.26",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.7",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.8",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "17.9",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.0",
+      "complete": false,
+      "changed": null,
+      "decimal_verdict": 1,
+      "scientific_verdict": null,
+      "expected": 1,
+      "repeat_disagreement": null
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 1,
+      "value": "18.1",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.3",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.4",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.5",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.6",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 1,
+      "scientific_verdict": 0,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 2,
+      "value": "1.7",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.7",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 0,
+      "scientific_verdict": 1,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.8",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "10.9",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.0",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 3,
+      "value": "11.1",
+      "complete": true,
+      "changed": 1,
+      "decimal_verdict": 0,
+      "scientific_verdict": 1,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.1",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.2",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.3",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.4",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 1,
+      "scientific_verdict": 1,
+      "expected": 1,
+      "repeat_disagreement": 0.0
+    },
+    {
+      "task_id": "2287",
+      "criterion_id": 5,
+      "value": "-2.5",
+      "complete": true,
+      "changed": 0,
+      "decimal_verdict": 0,
+      "scientific_verdict": 0,
+      "expected": 0,
+      "repeat_disagreement": 0.0
+    }
+  ],
+  "complete_pairs": 30,
+  "planned_pairs": 32,
+  "boundary_contrast_by_family": [
+    {
+      "task_id": "1122",
+      "nominal": {
+        "planned": 6,
+        "valid": 6,
+        "unresolved": 0,
+        "errors": 3,
+        "error_rate_on_valid": 0.5,
+        "planned_error_range": [
+          0.5,
+          0.5
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 3,
+        "met_valid": 6
+      },
+      "boundary_excluding_nominal": {
+        "planned": 12,
+        "valid": 12,
+        "unresolved": 0,
+        "errors": 12,
+        "error_rate_on_valid": 1.0,
+        "planned_error_range": [
+          1.0,
+          1.0
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 12,
+        "met_valid": 12
+      },
+      "difference_range": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "task_id": "145",
+      "nominal": {
+        "planned": 6,
+        "valid": 6,
+        "unresolved": 0,
+        "errors": 3,
+        "error_rate_on_valid": 0.5,
+        "planned_error_range": [
+          0.5,
+          0.5
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 3,
+        "met_valid": 6
+      },
+      "boundary_excluding_nominal": {
+        "planned": 24,
+        "valid": 21,
+        "unresolved": 3,
+        "errors": 6,
+        "error_rate_on_valid": 0.2857142857142857,
+        "planned_error_range": [
+          0.25,
+          0.375
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 6,
+        "met_valid": 21
+      },
+      "difference_range": [
+        -0.25,
+        -0.125
+      ]
+    },
+    {
+      "task_id": "2287",
+      "nominal": {
+        "planned": 24,
+        "valid": 24,
+        "unresolved": 0,
+        "errors": 3,
+        "error_rate_on_valid": 0.125,
+        "planned_error_range": [
+          0.125,
+          0.125
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 3,
+        "met_valid": 24
+      },
+      "boundary_excluding_nominal": {
+        "planned": 48,
+        "valid": 45,
+        "unresolved": 3,
+        "errors": 6,
+        "error_rate_on_valid": 0.13333333333333333,
+        "planned_error_range": [
+          0.125,
+          0.1875
+        ],
+        "false_approvals": 0,
+        "unmet_valid": 0,
+        "false_rejections": 6,
+        "met_valid": 45
+      },
+      "difference_range": [
+        0.0,
+        0.0625
+      ]
+    }
+  ],
+  "equal_family_boundary_minus_nominal_range": [
+    0.08333333333333333,
+    0.14583333333333334
+  ],
+  "changed_pairs": 9,
+  "complete_cells": 62,
+  "unstable_cells": 0,
+  "repeat_disagreement_on_complete_pairs": 0.0,
+  "checker_automated_cells": 64,
+  "checker_cells": 64,
+  "checker_errors": 0
+}

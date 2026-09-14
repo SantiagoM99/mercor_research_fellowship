@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you refer to this proposal or reuse its evidence, please cite it as below."
+title: "APEX-Invariance: acceptance tests for APEX's LLM judge by criterion class"
+authors:
+  - family-names: "Martínez Novoa"
+    given-names: "Santiago"
+    affiliation: "Universidad de los Andes, Bogotá"
+date-released: "2026-09-14"
+url: "https://github.com/SantiagoM99/mercor_research_fellowship"
+repository-code: "https://github.com/SantiagoM99/mercor_research_fellowship"
+abstract: "Research proposal for the Mercor Research Fellowship (Novel Evaluation Methodology) with reproducible preliminary evidence: an audit of the public APEX-v1-extended development set, 19 numerical criteria reproduced from source files, and four frozen local studies of rubric-judge behavior under controlled transformations."
+keywords:
+  - LLM-as-a-judge
+  - rubric evaluation
+  - APEX
+  - acceptance testing
+license: "MIT AND CC-BY-NC-ND-4.0"

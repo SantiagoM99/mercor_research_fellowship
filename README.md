@@ -34,3 +34,7 @@ See [REPRODUCING.md](REPRODUCING.md) for offline analysis, figure generation and
 | [figures/](figures/) | Figures supporting the proposal and detailed reports |
 
 The public development data come from [Mercor's APEX-v1-extended release](https://huggingface.co/datasets/mercor/APEX-v1-extended), revision e0db9513115f8d0449591fac3d77d4bdc1a98fef. Original attribution, source manifests and the upstream harness license are retained under data/. No hidden evaluation cases or internal Mercor trajectories are included.
+
+## License and citation
+
+Code under `scripts/` and `tests/` is MIT licensed (`LICENSE`). The proposal, pitch, protocols, reports and figures are licensed CC BY-NC-ND 4.0 (`LICENSE-CONTENT.md`): share them unchanged with attribution; no derivatives or commercial use without permission. Redistributed APEX data and Mercor's public scoring code keep their own terms, included alongside them. Cite with `CITATION.cff`. First public version: 14 September 2026; the commit history dates every component.

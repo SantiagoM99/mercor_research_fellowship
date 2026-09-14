@@ -1,0 +1,85 @@
+{
+  "schema_version": 3,
+  "study_id": "numeric-intervention-v1",
+  "created_utc": "2026-09-13T00:31:18.036804+00:00",
+  "provider": "ollama",
+  "model": "gemma3:4b",
+  "base_url": "http://127.0.0.1:11434",
+  "temperature": 0.01,
+  "max_output_tokens": 512,
+  "thinking": false,
+  "context_window": 4096,
+  "top_p": 0.95,
+  "top_k": 20,
+  "repeats": 3,
+  "shuffle_seed": 20260915,
+  "planned_calls": 180,
+  "task_families": 3,
+  "requests_sha256": "3af50afa056c6e48895d835ab86ea1473b1b13751e3e6434d08aa849c9e0762a",
+  "study_config": {
+    "study_id": "numeric-intervention-v1",
+    "models": [
+      "qwen3:4b",
+      "gemma3:4b"
+    ],
+    "arms": [
+      "original",
+      "clarified"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "repeats": 3,
+    "seed": 20260915,
+    "amendment_file": "experiments/prompts/numeric_clarification_v1.txt",
+    "selection": "Three purposefully selected public source tasks not used in prior judge runs. Positive decimal, negative integer and percentage intervals. Public rubrics were inspected to author the probes; not an unseen-data or contamination-free claim.",
+    "probes": [
+      {
+        "task_id": "145",
+        "criterion_id": 2,
+        "nominal": "9.15",
+        "step": "0.01",
+        "responses": {
+          "en": "The average number of impressions per dollar for the Fixed Price payment method is {value}.",
+          "es": "El n\u00famero promedio de impresiones por d\u00f3lar para el m\u00e9todo de pago de precio fijo es {value}."
+        }
+      },
+      {
+        "task_id": "1122",
+        "criterion_id": 1,
+        "nominal": "-28",
+        "step": "1",
+        "responses": {
+          "en": "The Net Promoter Score (NPS) for Gen Z is {value}.",
+          "es": "El Net Promoter Score (NPS) de la generaci\u00f3n Z es {value}."
+        }
+      },
+      {
+        "task_id": "2205",
+        "criterion_id": 1,
+        "nominal": "4.718",
+        "step": "0.001",
+        "responses": {
+          "en": "The bond's yield to maturity on 2025-10-01 is {value}%.",
+          "es": "El rendimiento al vencimiento del bono al 2025-10-01 es {value}%."
+        }
+      }
+    ]
+  },
+  "study_config_sha256": "36a39d737f8d86ff96fb08d3a7d4f621f89190cd471ffbbfb7cc70b33fae4453",
+  "template_sha256": "0f126c1c033b5b409a49e36c564de5eca96f27e0b5103ce66a2edd581b638fbf",
+  "amendment_sha256": "71a5b2c9567a282572a2e3339aecfa373557a238b55e257f75cefa82796cfe49",
+  "amendment": "Additional guidance for numeric criteria:\nApply any explicitly stated acceptable range as an inclusive interval. Either endpoint satisfies the numeric target even if it differs from the nominal value. A value outside the interval does not satisfy it merely because it is close. If only an exact acceptable value is specified, do not invent a tolerance. First identify the requested metric, units and scope; unrelated numbers are not answers. Equivalent number formatting preserves a value, but a change in digits can change the value. Apply the same rules regardless of the response language. Preserve the required JSON output format and concise explanation.\n",
+  "dataset_sha256": "71b241d2884457534856a831b640a0e4de7734c9a8f46b7d35174ee4b74320c9",
+  "dataset_revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+  "earlier_task_ids": [
+    "1172",
+    "2145",
+    "2287"
+  ],
+  "human_review_status": "pending",
+  "expected_labels_status": "published_numeric_predicates_not_expert_gold",
+  "study_status": "exploratory_prompt_intervention_on_new_public_tasks",
+  "context": "Same source rubric and response; clarified arm appends a fixed English numeric-rule instruction."
+}

@@ -1,0 +1,25 @@
+{
+  "note": "Completed follow-up study and exported artifact hashes. Source-script/protocol hashes at study start are in experiments/numeric-intervention-v1-provenance.json.",
+  "files": {
+    "runs/numeric-intervention-v1/gemma3-4b/summary.json": "bda9cbf59e6b6e8155634df4f8f659944687b0234ef8adcc9e0099eac827a501",
+    "runs/numeric-intervention-v1/gemma3-4b/requests.jsonl": "3af50afa056c6e48895d835ab86ea1473b1b13751e3e6434d08aa849c9e0762a",
+    "runs/numeric-intervention-v1/gemma3-4b/results.jsonl": "cc3f9b2794ba4a7847bfece141a8e4714fdde0cfed10a32fb4babb51397977fa",
+    "runs/numeric-intervention-v1/gemma3-4b/manifest.json": "cb844ab47ce7009f0cbb8b8596c912ab29357ed1927cde49aafe46cc986ae03f",
+    "runs/numeric-intervention-v1/gemma3-4b/runtime_identity.json": "c11b8523c4b6111986c18953aa90a54b5741bfce4767e270b532e6121c8a5361",
+    "runs/numeric-intervention-v1/qwen3-4b/summary.json": "cc5f5d672255463a51e0c1cc2b785231d568604d57d575a9f245ee441503bdd6",
+    "runs/numeric-intervention-v1/qwen3-4b/requests.jsonl": "3af50afa056c6e48895d835ab86ea1473b1b13751e3e6434d08aa849c9e0762a",
+    "runs/numeric-intervention-v1/qwen3-4b/results.jsonl": "05bda66237373293da19be43ce593055d0b3ee02aad823ef46e3764b0f78c1f4",
+    "runs/numeric-intervention-v1/qwen3-4b/manifest.json": "4aee3c2b5e83e770e966b6af6f2b5e0c6550c60d2bf2d8d361136ce5ab7f6241",
+    "runs/numeric-intervention-v1/qwen3-4b/runtime_identity.json": "49933bb531d0d4c42b935ec6d1ce924a3599bead1b1dfcca2fd9ea3dac62b872",
+    "analysis/numeric-intervention-v1-paired_changes.csv": "74093f762c6f009210f5e06a4d9f51c90d5257a7f424ae5ab278c29f8e5817fb",
+    "analysis/numeric-intervention-v1-cells.csv": "8dd61641c0f8bb5d73b7450c5c3d28b4d3e08db0fb6a8300611cfcd06947775a",
+    "analysis/numeric-intervention-v1-rates.csv": "937647052804abb63bd3f2c0dd92be16c2f90ab8a7051ddb1ffb0946c6dc1b91",
+    "analysis/numeric-intervention-v1.json": "57206b14400675f2d24f70c4bd73babeebb7ecb6aec4c4137253a7e304e47b4e",
+    "analysis/followup_source_checks.json": "dd49abf006a070f617eabb157868894571c21da5d06d38db047a773f039a3c5d",
+    "docs/APEX-Invariance \u2014 Research Case.pdf": "96d14ec63730920f5479ca57910661654a0e250ea433f9d080ab9406bf9880c8",
+    "figures/numeric_intervention.svg": "7c62fa86cda02a8d51ad2136541efef3cb59dd32e7ded055b0d6f8bbf99816be",
+    "figures/numeric_intervention.png": "cf2d58a056da1f2d597e05138d29943d0ec24c5ae2d38629ec3a130eebc57a7b",
+    "figures/numeric_intervention.pdf": "2af780d13396ce8d48e2fa8786b78939e1ace1b71436e6cdc7baf3320b306f99",
+    "figures/numeric_intervention.md": "8b81612c92269055be101e6f69dedeee9ab598ee775f0aa00167d7be726bf500"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "study_id": "numeric-intervention-v1",
+  "models": [
+    "qwen3:4b",
+    "gemma3:4b"
+  ],
+  "arms": [
+    "original",
+    "clarified"
+  ],
+  "languages": [
+    "en",
+    "es"
+  ],
+  "repeats": 3,
+  "seed": 20260915,
+  "amendment_file": "experiments/prompts/numeric_clarification_v1.txt",
+  "selection": "Three purposefully selected public source tasks not used in prior judge runs. Positive decimal, negative integer and percentage intervals. Public rubrics were inspected to author the probes; not an unseen-data or contamination-free claim.",
+  "probes": [
+    {
+      "task_id": "145",
+      "criterion_id": 2,
+      "nominal": "9.15",
+      "step": "0.01",
+      "responses": {
+        "en": "The average number of impressions per dollar for the Fixed Price payment method is {value}.",
+        "es": "El número promedio de impresiones por dólar para el método de pago de precio fijo es {value}."
+      }
+    },
+    {
+      "task_id": "1122",
+      "criterion_id": 1,
+      "nominal": "-28",
+      "step": "1",
+      "responses": {
+        "en": "The Net Promoter Score (NPS) for Gen Z is {value}.",
+        "es": "El Net Promoter Score (NPS) de la generación Z es {value}."
+      }
+    },
+    {
+      "task_id": "2205",
+      "criterion_id": 1,
+      "nominal": "4.718",
+      "step": "0.001",
+      "responses": {
+        "en": "The bond's yield to maturity on 2025-10-01 is {value}%.",
+        "es": "El rendimiento al vencimiento del bono al 2025-10-01 es {value}%."
+      }
+    }
+  ]
+}

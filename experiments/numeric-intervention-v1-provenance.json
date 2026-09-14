@@ -1,0 +1,11 @@
+{
+  "status": "Frozen study sources; recorded during execution, before inspecting follow-up outcomes.",
+  "files": {
+    "experiments/numeric-intervention-v1.json": "36a39d737f8d86ff96fb08d3a7d4f621f89190cd471ffbbfb7cc70b33fae4453",
+    "experiments/prompts/numeric_clarification_v1.txt": "71a5b2c9567a282572a2e3339aecfa373557a238b55e257f75cefa82796cfe49",
+    "docs/Intervenci\u00f3n num\u00e9rica \u2014 protocolo.md": "09f8729d07f2829f7ad49936253d00d0844d6fd468169c050b8dd90abc74aa0d",
+    "scripts/numeric_intervention.py": "58715d3b7e7b072bf945ada5ebc49673d52c7b8ee0d0c2ac3b80907c61924c28",
+    "scripts/judge_pilot.py": "37a2dd227df75489c5c8f7840d769d8ff38dbd9fdcb3f987c72d9792c8efed08",
+    "scripts/ollama_backend.py": "555858bc8055d8ffaaabfb40e1e6d8c3f166e015f07f1e8964d446d1b3cf5e6e"
+  }
+}

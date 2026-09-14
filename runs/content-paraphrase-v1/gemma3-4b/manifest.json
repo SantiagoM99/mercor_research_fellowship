@@ -1,0 +1,220 @@
+{
+  "schema_version": 3,
+  "study_id": "content-paraphrase-v1",
+  "created_utc": "2026-09-13T08:00:26.167022+00:00",
+  "provider": "ollama",
+  "model": "gemma3:4b",
+  "base_url": "http://127.0.0.1:11434",
+  "temperature": 0.01,
+  "max_output_tokens": 512,
+  "thinking": false,
+  "context_window": 4096,
+  "top_p": 0.95,
+  "top_k": 20,
+  "repeats": 3,
+  "shuffle_seed": 20260913,
+  "planned_calls": 288,
+  "task_families": 3,
+  "requests_sha256": "cc5bf440122c2d3083b372c86b6e2515700e086a81f4724bd31037533a4c4413",
+  "study_config": {
+    "study_id": "content-paraphrase-v1",
+    "models": [
+      "qwen3:4b",
+      "gemma3:4b"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "wordings": [
+      "original",
+      "paraphrase"
+    ],
+    "repeats": 3,
+    "seed": 20260913,
+    "spanish_template": "experiments/prompts/grading_es_v1.txt",
+    "selection": "Six purposefully selected, source-reproduced numeric criteria on three previously explored public development tasks. Nominal correct value and a single outside-range value. No held-out generalization claim. Numeric notation is fixed across languages. Independent equivalence review pending.",
+    "primary_analysis": "Majority over three repeats per cell. Content detection requires correct=1 and incorrect=0; paraphrase instability is any majority change with response fixed. Report raw denominators and equal-task macro means. Complement with pass-fraction changes and repeat instability; no population intervals with three selected tasks.",
+    "probes": [
+      {
+        "task_id": "145",
+        "criterion_id": 2,
+        "values": {
+          "correct": "9.15",
+          "incorrect": "9.26"
+        },
+        "bounds": [
+          "9.05",
+          "9.25"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "States that the average impressions per $ for the Fixed Price payment method as 9.15. (Acceptable range is 9.05 to 9.25)",
+            "paraphrase": "For the Fixed Price payment method, states an average of 9.15 impressions per $. (Acceptable range is 9.05 to 9.25)"
+          },
+          "es": {
+            "original": "Indica que el promedio de impresiones por $ para el método de pago de precio fijo es 9.15. (El rango aceptable es de 9.05 a 9.25)",
+            "paraphrase": "Para el método de pago de precio fijo, indica un promedio de 9.15 impresiones por $. (El rango aceptable es de 9.05 a 9.25)"
+          }
+        },
+        "responses": {
+          "en": "The average number of impressions per dollar for the Fixed Price payment method is {value}.",
+          "es": "El número promedio de impresiones por dólar para el método de pago de precio fijo es {value}."
+        }
+      },
+      {
+        "task_id": "1122",
+        "criterion_id": 1,
+        "values": {
+          "correct": "-28",
+          "incorrect": "-30"
+        },
+        "bounds": [
+          "-29",
+          "-27"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "Calculates NPS for Gen Z as -28 (acceptable range is - 29 to - 27).",
+            "paraphrase": "For Gen Z, calculates an NPS of -28 (acceptable range is - 29 to - 27)."
+          },
+          "es": {
+            "original": "Calcula el NPS de la generación Z como -28 (el rango aceptable es de - 29 a - 27).",
+            "paraphrase": "Para la generación Z, calcula un NPS de -28 (el rango aceptable es de - 29 a - 27)."
+          }
+        },
+        "responses": {
+          "en": "The Net Promoter Score (NPS) for Gen Z is {value}.",
+          "es": "El Net Promoter Score (NPS) de la generación Z es {value}."
+        }
+      },
+      {
+        "task_id": "2287",
+        "criterion_id": 1,
+        "values": {
+          "correct": "17.9",
+          "incorrect": "18.1"
+        },
+        "bounds": [
+          "17.8",
+          "18.0"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "Determines the IRR of KatNip as 17.9%. (acceptable range of 17.8% to 18.0%).",
+            "paraphrase": "For KatNip, determines an IRR of 17.9%. (acceptable range of 17.8% to 18.0%)."
+          },
+          "es": {
+            "original": "Determina la TIR de KatNip como 17.9%. (rango aceptable de 17.8% a 18.0%).",
+            "paraphrase": "Para KatNip, determina una TIR de 17.9%. (rango aceptable de 17.8% a 18.0%)."
+          }
+        },
+        "responses": {
+          "en": "The internal rate of return (IRR) of KatNip is {value}%.",
+          "es": "La tasa interna de retorno (TIR) de KatNip es {value}%."
+        }
+      },
+      {
+        "task_id": "2287",
+        "criterion_id": 2,
+        "values": {
+          "correct": "1.5",
+          "incorrect": "1.3"
+        },
+        "bounds": [
+          "1.4",
+          "1.6"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "Determines the MOIC of KatNip as 1.5x. (acceptable range of 1.4x to 1.6x).",
+            "paraphrase": "For KatNip, determines a MOIC of 1.5x. (acceptable range of 1.4x to 1.6x)."
+          },
+          "es": {
+            "original": "Determina el MOIC de KatNip como 1.5x. (rango aceptable de 1.4x a 1.6x).",
+            "paraphrase": "Para KatNip, determina un MOIC de 1.5x. (rango aceptable de 1.4x a 1.6x)."
+          }
+        },
+        "responses": {
+          "en": "The multiple on invested capital (MOIC) of KatNip is {value}x.",
+          "es": "El múltiplo sobre el capital invertido (MOIC) de KatNip es {value}x."
+        }
+      },
+      {
+        "task_id": "2287",
+        "criterion_id": 5,
+        "values": {
+          "correct": "-2.3",
+          "incorrect": "-2.5"
+        },
+        "bounds": [
+          "-2.4",
+          "-2.2"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "Determines NPV at a 20% discount rate of KatNip as -$2.3MM. (acceptable range of -$2.4MM to -$2.2MM).",
+            "paraphrase": "At a 20% discount rate, determines KatNip's NPV as -$2.3MM. (acceptable range of -$2.4MM to -$2.2MM)."
+          },
+          "es": {
+            "original": "Determina el VPN de KatNip a una tasa de descuento del 20% como -$2.3MM. (rango aceptable de -$2.4MM a -$2.2MM).",
+            "paraphrase": "A una tasa de descuento del 20%, determina el VPN de KatNip como -$2.3MM. (rango aceptable de -$2.4MM a -$2.2MM)."
+          }
+        },
+        "responses": {
+          "en": "The net present value (NPV) of KatNip at a 20% discount rate is {value} million dollars.",
+          "es": "El valor presente neto (VPN) de KatNip a una tasa de descuento del 20% es {value} millones de dólares."
+        }
+      },
+      {
+        "task_id": "2287",
+        "criterion_id": 3,
+        "values": {
+          "correct": "10.9",
+          "incorrect": "11.1"
+        },
+        "bounds": [
+          "10.8",
+          "11.0"
+        ],
+        "rubrics": {
+          "en": {
+            "original": "Determines NPV at a 10% discount rate of KatNip as $10.9MM. (acceptable range of $10.8MM to $11.0MM).",
+            "paraphrase": "At a 10% discount rate, determines KatNip's NPV as $10.9MM. (acceptable range of $10.8MM to $11.0MM)."
+          },
+          "es": {
+            "original": "Determina el VPN de KatNip a una tasa de descuento del 10% como $10.9MM. (rango aceptable de $10.8MM a $11.0MM).",
+            "paraphrase": "A una tasa de descuento del 10%, determina el VPN de KatNip como $10.9MM. (rango aceptable de $10.8MM a $11.0MM)."
+          }
+        },
+        "responses": {
+          "en": "The net present value (NPV) of KatNip at a 10% discount rate is {value} million dollars.",
+          "es": "El valor presente neto (VPN) de KatNip a una tasa de descuento del 10% es {value} millones de dólares."
+        }
+      }
+    ]
+  },
+  "study_config_sha256": "cfb8ca3d0dac0e6308b6c11c5b0e7857b045a1a8d94d9464ef01c874b0d44127",
+  "template_hashes": {
+    "en": "0f126c1c033b5b409a49e36c564de5eca96f27e0b5103ce66a2edd581b638fbf",
+    "es": "9cb33255713304e827c6f83193f4fd95833f797bfbbb626aef68666b025983fc"
+  },
+  "source_hashes": {
+    "data/train.csv": "71b241d2884457534856a831b640a0e4de7734c9a8f46b7d35174ee4b74320c9",
+    "documents/145/Campaign_Portfolio.csv": "b59bb296f664dd6a8b67ca1e2ccc2513fd2aed427b51408ee5aa40a225123050",
+    "documents/1122/Survey.csv": "53d578800e573129f2bcd62acd93f58ea33154089b72738ae8eec068b645cc8e",
+    "documents/2287/KatNip.pdf": "c5c09cd2b87bdef1fa0a85c49b9754da50d1331f955304a40ec531fe0b1eb1dc"
+  },
+  "dataset_revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+  "code_hashes": {
+    "scripts/content_paraphrase.py": "8e4140de7849e999780866c1ae21ef665cc8525bcab4087817d3c228211bf721",
+    "scripts/judge_pilot.py": "37a2dd227df75489c5c8f7840d769d8ff38dbd9fdcb3f987c72d9792c8efed08",
+    "scripts/ollama_backend.py": "555858bc8055d8ffaaabfb40e1e6d8c3f166e015f07f1e8964d446d1b3cf5e6e",
+    "scripts/measure_sensitivity.py": "d07ba6a9fdfacb17dc3288d2cb39b52d9b2d8d66aa14e07a17772be9300f0b13",
+    "scripts/verify_followup_sources.py": "03c60c71b7dfeac2fe4c03f18885caa5e06001e8933621f510fbb7e1136e81cc"
+  },
+  "human_review_status": "pending",
+  "expected_labels_status": "source_reproduced_numeric_controls_not_expert_gold",
+  "context": "Response language x grading language (instructions and criterion together) x rubric wording x content. No numeric clarification appended.",
+  "study_status": "exploratory_previously_inspected_public_development_tasks"
+}

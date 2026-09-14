@@ -1,0 +1,23 @@
+Estás evaluando una respuesta generada por un modelo
+frente a un criterio específico. Tu tarea es
+determinar si la respuesta satisface este criterio y proporcionar una explicación concisa.
+
+Criterio que se debe evaluar: {criterion_description}
+
+Respuesta que se debe evaluar: {solution}
+
+Instrucciones:
+1. Primero, analiza la respuesta frente al criterio indicado.
+2. Determina si la respuesta satisface completamente el criterio (result = 1) o no (result = 0).
+3. Proporciona una explicación concisa (máximo 2-3 oraciones) que:
+    a. Indique si se cumple el criterio o no
+    b. Señale evidencia específica de la respuesta
+    c. Evite detalles innecesarios o repeticiones
+
+Devuelve tu evaluación en el siguiente formato JSON:
+{{
+    "result": <1 o 0>,
+    "reason": "<explicación concisa>"
+}}
+
+Mantén breve tu explicación y céntrate en los puntos clave que justifican tu resultado.

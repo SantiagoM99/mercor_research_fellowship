@@ -1,0 +1,19 @@
+{
+  "provider": "ollama",
+  "server_version": "0.33.2",
+  "model": "gemma3:4b",
+  "model_digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+  "model_details_sha256": "4b15cb08b723b8d5cd1187b6f7de5406e83813089634b1060fc1a94945421e05",
+  "model_size_bytes": 3338801804,
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "gemma3",
+    "families": [
+      "gemma3"
+    ],
+    "parameter_size": "4.3B",
+    "quantization_level": "Q4_K_M"
+  },
+  "configuration_sha256": "31b57f2d4a94962679ea437071869c526613734c30810dacee0fb6f8904d2f8a"
+}

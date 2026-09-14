@@ -1,0 +1,53 @@
+{
+  "verified_utc": "2026-09-13T16:15:05.005385+00:00",
+  "study_id": "content-paraphrase-v1",
+  "models": [
+    {
+      "model": "qwen3:4b",
+      "valid": 288,
+      "failed_attempts": 0,
+      "cells": 96,
+      "max_prompt_tokens": 326
+    },
+    {
+      "model": "gemma3:4b",
+      "valid": 288,
+      "failed_attempts": 0,
+      "cells": 96,
+      "max_prompt_tokens": 307
+    }
+  ],
+  "checks": "Frozen inputs; identical plans; 576 valid raw responses; model identity; context budget; independent metric regeneration.",
+  "artifacts": {
+    "runs/content-paraphrase-v1/qwen3-4b/manifest.json": "b910dcdd374ff10ef77ad1630143a94b46a9e5a937db2ec76a0b7fd5d9358a0e",
+    "runs/content-paraphrase-v1/qwen3-4b/requests.jsonl": "cc5bf440122c2d3083b372c86b6e2515700e086a81f4724bd31037533a4c4413",
+    "runs/content-paraphrase-v1/qwen3-4b/runtime_identity.json": "c52f2b1cea361f23c82d22c89aefbd6745fe12ef1e4eb678239f2d00e6497402",
+    "runs/content-paraphrase-v1/qwen3-4b/results.jsonl": "f716171833090b46108c1a162944af0dfb163e795de9cd7dd61da15209f44f79",
+    "runs/content-paraphrase-v1/qwen3-4b/summary.json": "54a0c643dfa41bb39286e73c1fc65000dd43fc8ae9369a352c99d912b1b272fc",
+    "runs/content-paraphrase-v1/gemma3-4b/manifest.json": "f58f65e90499db6948bc8e97f33f20748bcf3b48c7df57323d4caf9ae9f20cf4",
+    "runs/content-paraphrase-v1/gemma3-4b/requests.jsonl": "cc5bf440122c2d3083b372c86b6e2515700e086a81f4724bd31037533a4c4413",
+    "runs/content-paraphrase-v1/gemma3-4b/runtime_identity.json": "1dc106ce6626ab797dcd1763a06a027393a3918c2ab4a009e2f459e629d85405",
+    "runs/content-paraphrase-v1/gemma3-4b/results.jsonl": "b0cc34d0372c4121c0b8c0835e9f2499a586c986b439f33215ddbdebeef6b4ea",
+    "runs/content-paraphrase-v1/gemma3-4b/summary.json": "f09355a0f0db8625688f768e984d4ad68fa0703c53f1f6c118ce4b85a2ee07c3",
+    "experiments/content-paraphrase-v1.json": "cfb8ca3d0dac0e6308b6c11c5b0e7857b045a1a8d94d9464ef01c874b0d44127",
+    "docs/Contenido y paráfrasis — protocolo.md": "a31c9eaca22db6af98ad1cb1bd94a8d6db72ce0a2d4dfa3537f6a9cdc65735e5",
+    "analysis/Contenido y paráfrasis — resultados.md": "8df9e0cff92b0a5d0a1b2fec0b824cc94138a2ef6332f68b7c3a6ad9b00f49ab",
+    "analysis/content-paraphrase-v1.json": "de329ba02347b796a83a0a754633cb0471773b508804a5de4144e66a3d4dd847",
+    "analysis/content-paraphrase-v1-cells.csv": "8f98105ee531cbdd45989c445fb5af16ec9986e3f244cfe756b0eb3898b2e0a9",
+    "analysis/content-paraphrase-v1-pairs.csv": "17af90e8fcc92dcc2fa34d9287247219ad7fb13ec4a7b41a5a0cdeb4f57f902e",
+    "analysis/content-paraphrase-v1-rates.csv": "63d19db69bed359545dd73819f664177208aaae15e34f7860e62dbfdeef7f501",
+    "figures/content_paraphrase.png": "62112c15abbbda671e4f0b0be9bf28297d0770c6097ec5cae0b9cc29d50721b6",
+    "figures/content_paraphrase.pdf": "53e37c8097ac430eb132ee3cdc5a8e6ed03839b4324ffd9135a5b9e953fbfec9",
+    "figures/content_paraphrase.svg": "e14c06cff966d84ca7c8e5dff6636364c5e398ecd6937402c2cb6251669e7ff3",
+    "figures/content_paraphrase.md": "58b19a0465c03ebed36e26edcb1f8a6cd4885a4a5fb04099a7bef400a070dd27",
+    "figures/content_paraphrase_detail.png": "507850222256ecd14df501c4c981adb20bfa8724d89602fe351b3b13a2d47b05",
+    "figures/content_paraphrase_detail.pdf": "acf55236629753928c03f960ed1fe4a0f60dc7ac9adc5dd980893d7f356f1679",
+    "figures/content_paraphrase_detail.svg": "beedbe58dbf6b6447a4e69afc2d501537fd23d8f71c7fa3b6604237b93d1ada0",
+    "figures/content_paraphrase_detail.md": "49417d27e00e9a1796347ba0441a6ef2613b727b5d6e7bdf2a6b98f25425c84d",
+    "scripts/content_paraphrase.py": "8e4140de7849e999780866c1ae21ef665cc8525bcab4087817d3c228211bf721",
+    "scripts/report_content_paraphrase.py": "e0ce54436bd6e7f2440ea1d3e635de90eac2d32e622bb76c3b81a67a96dccf88",
+    "scripts/plot_content_paraphrase.py": "b929c6e496bc0817aa810471a927d616192e791599d871ebec222342479596a7",
+    "scripts/verify_content_results.py": "a2c086a948a31cc3db2adc9da13662fd78ced508c578457f777598e6fa48e2ad",
+    "scripts/export_content_review.py": "632c6ef18f028a9313e6bde08a5088e246836ee5922a615d052c8f681400feb7"
+  }
+}

@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.local.example
+__pycache__/
+.venv/
+.mplconfig/
+.models/
+
+# local tooling and previews
+*.pyc
+.DS_Store
+
+# working material, not part of the public repository
+workspace/
+CLAUDE.md

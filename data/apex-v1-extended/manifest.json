@@ -1,0 +1,74 @@
+{
+  "dataset": "mercor/APEX-v1-extended",
+  "revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+  "retrieved_utc": "2026-09-13T00:39:31.514271+00:00",
+  "access": "Official Hugging Face file downloads; no viewer scraping.",
+  "files": {
+    "data/train.csv": {
+      "local_file": "train.csv",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/data/train.csv",
+      "sha256": "71b241d2884457534856a831b640a0e4de7734c9a8f46b7d35174ee4b74320c9",
+      "bytes": 1315692
+    },
+    "README.md": {
+      "local_file": "README.md",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/README.md",
+      "sha256": "bf58471b2b23e90e7902f15f6595845ebaaf9531f68a55f74668d980a728e851",
+      "bytes": 5979
+    },
+    "eval.yaml": {
+      "local_file": "eval.yaml",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/eval.yaml",
+      "sha256": "a0840643f5ec236e0fe619dfb73cbfe30af361e6e0aee3c2578fae5f30076577",
+      "bytes": 501
+    },
+    "documents/1172/US Population Census by State.csv": {
+      "local_file": "documents/1172/US Population Census by State.csv",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/1172/US%20Population%20Census%20by%20State.csv",
+      "sha256": "671fcc66ef18e619ad4d58831b700083aa43da77ff3e5e0d23fb5be4af867ee3",
+      "bytes": 3675
+    },
+    "documents/1242/Data.csv": {
+      "local_file": "documents/1242/Data.csv",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/1242/Data.csv",
+      "sha256": "618251385ae3307d47092e83654adb4badbca0ee056a2375b1f7fb3902127767",
+      "bytes": 37716
+    },
+    "documents/2108/Nike-Inc-2025 Form-10K .pdf": {
+      "local_file": "documents/2108/Nike-Inc-2025 Form-10K .pdf",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/2108/Nike-Inc-2025%20Form-10K%20.pdf",
+      "sha256": "238406a1ff588d7bbebbf85ef16b535539298b393648f46083191e890441bbb5",
+      "bytes": 1448837
+    },
+    "documents/2145/Beta.pdf": {
+      "local_file": "documents/2145/Beta.pdf",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/2145/Beta.pdf",
+      "sha256": "bebcf4ce06edbb2a5c989acf9fb36f5cb035940c04db3d6efcc4ffd8f733627e",
+      "bytes": 206538
+    },
+    "documents/2145/Treasury.pdf": {
+      "local_file": "documents/2145/Treasury.pdf",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/2145/Treasury.pdf",
+      "sha256": "e7363bcb787de509fd79c12e206357b4d9794df6ebce21eaf4f8e30ee5911a2a",
+      "bytes": 57174
+    },
+    "documents/2287/KatNip.pdf": {
+      "local_file": "documents/2287/KatNip.pdf",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/2287/KatNip.pdf",
+      "sha256": "c5c09cd2b87bdef1fa0a85c49b9754da50d1331f955304a40ec531fe0b1eb1dc",
+      "bytes": 51443
+    },
+    "documents/145/Campaign_Portfolio.csv": {
+      "local_file": "documents/145/Campaign_Portfolio.csv",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/145/Campaign_Portfolio.csv",
+      "sha256": "b59bb296f664dd6a8b67ca1e2ccc2513fd2aed427b51408ee5aa40a225123050",
+      "bytes": 10649
+    },
+    "documents/1122/Survey.csv": {
+      "local_file": "documents/1122/Survey.csv",
+      "url": "https://huggingface.co/datasets/mercor/APEX-v1-extended/resolve/e0db9513115f8d0449591fac3d77d4bdc1a98fef/documents/1122/Survey.csv",
+      "sha256": "53d578800e573129f2bcd62acd93f58ea33154089b72738ae8eec068b645cc8e",
+      "bytes": 164824
+    }
+  }
+}

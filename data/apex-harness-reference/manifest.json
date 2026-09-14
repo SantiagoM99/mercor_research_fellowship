@@ -1,0 +1,30 @@
+{
+  "repository": "Mercor-Intelligence/apex-evals",
+  "revision": "6cbf3f43156bf332329abe76ed4a695fc71ec5b0",
+  "files": {
+    "src/grading/executor.py": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/apex-evals-v1-extended/src/grading/executor.py",
+      "sha256": "67cedb19421467ea80c19b68452dcd3567e1d37cf475cdbbf4daa3febd2d76f6"
+    },
+    "src/grading/config.py": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/apex-evals-v1-extended/src/grading/config.py",
+      "sha256": "2c1b4e058818e2378c6068514de60f9d6c0a0ba4c74da146ede1203117b5c075"
+    },
+    "examples/run_with_hf.py": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/apex-evals-v1-extended/examples/run_with_hf.py",
+      "sha256": "5b8c165f45ccf156530b7907a94195803ad1cffc4a609021207536094403e3aa"
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/apex-evals-v1-extended/README.md",
+      "sha256": "8e9f3e5f7352eab4dd708b7cd9f19419435165f73bdfca39a95c2d7f1ffd4ae2"
+    },
+    "prompt/grading_prompt.txt": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/apex-evals-v1-extended/prompt/grading_prompt.txt",
+      "sha256": "0f126c1c033b5b409a49e36c564de5eca96f27e0b5103ce66a2edd581b638fbf"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/Mercor-Intelligence/apex-evals/6cbf3f43156bf332329abe76ed4a695fc71ec5b0/LICENSE",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  }
+}

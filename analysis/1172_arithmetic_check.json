@@ -1,0 +1,46 @@
+{
+  "task_id": "1172",
+  "geographic_rows": 51,
+  "rounded": {
+    "population_2024": 340110988,
+    "population_2032": 358710351,
+    "interested_people": 53806553,
+    "tam_usd": 2690327629,
+    "sam_usd": 269032763
+  },
+  "unrounded": {
+    "population_2024": "340110988",
+    "population_2032": "358710350.56716983096237996690658674818370668559941",
+    "interested_people": "53806552.585075474644356995035988012227556002839912",
+    "tam_usd": "2690327629.2537737322178497517994006113778001419956",
+    "sam_usd": "269032762.92537737322178497517994006113778001419956"
+  },
+  "rubric_checks": [
+    {
+      "criterion_id": 1,
+      "computed": 358710351,
+      "present_in_source_rubric": true
+    },
+    {
+      "criterion_id": 2,
+      "computed": 53806553,
+      "present_in_source_rubric": true
+    },
+    {
+      "criterion_id": 3,
+      "computed": 2690327629,
+      "present_in_source_rubric": true
+    },
+    {
+      "criterion_id": 4,
+      "computed": 269032763,
+      "present_in_source_rubric": true
+    },
+    {
+      "criterion_id": 6,
+      "computed": 340110988,
+      "present_in_source_rubric": true
+    }
+  ],
+  "status": "five_numerical_targets_reproduced_without_an_LLM"
+}

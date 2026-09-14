@@ -1,0 +1,42 @@
+{
+  "dataset_revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+  "results": [
+    {
+      "campaigns": 33,
+      "total_cost": "348289",
+      "total_impressions": "3185256",
+      "value": "9.145439563121430765829526629",
+      "method": "Total impressions divided by total fixed-price campaign cost; not an unweighted mean of campaign ratios.",
+      "task_id": "145",
+      "criterion_id": 2,
+      "source": "documents/145/Campaign_Portfolio.csv",
+      "source_sha256": "b59bb296f664dd6a8b67ca1e2ccc2513fd2aed427b51408ee5aa40a225123050",
+      "submitted": "9.15",
+      "accepted_bounds": [
+        "9.05",
+        "9.25"
+      ],
+      "numeric_pass": true
+    },
+    {
+      "respondents": 485,
+      "promoters": 113,
+      "detractors": 248,
+      "passives": 124,
+      "value": "-27.83505154639175257731958763",
+      "method": "100 \u00d7 (promoters minus detractors) / all Gen Z respondents, including passives; round final score only.",
+      "task_id": "1122",
+      "criterion_id": 1,
+      "source": "documents/1122/Survey.csv",
+      "source_sha256": "53d578800e573129f2bcd62acd93f58ea33154089b72738ae8eec068b645cc8e",
+      "submitted": "-28",
+      "accepted_bounds": [
+        "-29",
+        "-27"
+      ],
+      "numeric_pass": true
+    }
+  ],
+  "timing": "Independent source checks performed during the intervention run; frozen stimuli and labels unchanged.",
+  "limitation": "Reproduces two scalar targets only. Does not validate translations or complete professional deliverables. Bond yield target 2205 remains rubric-based."
+}

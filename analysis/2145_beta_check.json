@@ -1,0 +1,25 @@
+{
+  "task_id": "2145",
+  "criterion_id": 1,
+  "computed_utc": "2026-09-12T14:47:45.192359+00:00",
+  "source": "documents/2145/Beta.pdf",
+  "source_sha256": "bebcf4ce06edbb2a5c989acf9fb36f5cb035940c04db3d6efcc4ffd8f733627e",
+  "dataset_revision": "e0db9513115f8d0449591fac3d77d4bdc1a98fef",
+  "extracted_csv": "data/pilot/2145_beta_prices.csv",
+  "extracted_csv_sha256": "357e07fdffbd411ee71b105bf61641fb33bf577d1ff34c47da45048ac36bcca8",
+  "price_rows": 252,
+  "return_pairs": 251,
+  "first_date": "2024-01-02",
+  "last_date": "2024-12-31",
+  "method": "Simple daily returns, CPNG dependent on SPY; OLS slope with intercept = sample covariance / sample variance. No intermediate rounding.",
+  "beta": 0.6079237387743539,
+  "submitted_rounded": "0.61",
+  "accepted_bounds": [
+    0.6,
+    0.62
+  ],
+  "numeric_pass": true,
+  "source_criterion": "Calculates that Coupang's beta is 0.61 (acceptable range is 0.60 to 0.62)",
+  "timing": "Additional source verification during expanded model execution. No changes to frozen stimuli or expected labels.",
+  "limitation": "Reproduces beta only, not Coupang WACC or the full DCF task. This deterministic calculation is not a model judgment."
+}

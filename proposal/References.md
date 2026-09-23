@@ -2,7 +2,7 @@
 
 Numbering matches the [full proposal](../submission/APEX-Invariance%20-%20Full%20Proposal.pdf).
 
-[1] Vidgen et al. (2026). **APEX-Agents.** [arXiv:2601.14242](https://arxiv.org/abs/2601.14242). Judge validation in Section 4.2.
+[1] Vidgen et al. (2026). **APEX-Agents.** [arXiv:2601.14242](https://arxiv.org/abs/2601.14242). Section 4.2 describes judge validation.
 
 [2] Benchek et al. (2026). **APEX-Accounting.** [arXiv:2607.27189](https://arxiv.org/abs/2607.27189).
 
@@ -20,7 +20,7 @@ Numbering matches the [full proposal](../submission/APEX-Invariance%20-%20Full%2
 
 [9] Collot et al. (2026). **Balanced Accuracy: The Right Metric for Evaluating LLM Judges, Explained through Youden's J Statistic.** EACL Industry Track. [Paper and proceedings record](https://aclanthology.org/2026.eacl-industry.69/).
 
-[10] Yen et al. (2026). **MBABench: Evaluating LLM Agents on End-to-End Spreadsheet Tasks in Finance.** [arXiv:2605.22664v5](https://arxiv.org/abs/2605.22664v5). Seeded-error judge validation in Section 5.
+[10] Yen et al. (2026). **MBABench: Evaluating LLM Agents on End-to-End Spreadsheet Tasks in Finance.** [arXiv:2605.22664v5](https://arxiv.org/abs/2605.22664v5). Section 5 describes judge validation with seeded errors.
 
 [11] Martínez Novoa, Gómez Mesa, Prieto and Manrique (2026). **MeSHClass-ES and AnatEM-ES: Open Resources for Spanish Biomedical NLP.** BioNLP. [Paper and proceedings record](https://aclanthology.org/2026.bionlp-1.49/).
 
@@ -28,7 +28,7 @@ Numbering matches the [full proposal](../submission/APEX-Invariance%20-%20Full%2
 
 [13] Mercor. **APEX-v1-extended.** Public development dataset, revision e0db9513115f8d0449591fac3d77d4bdc1a98fef. [Dataset and documentation](https://huggingface.co/datasets/mercor/APEX-v1-extended).
 
-[14] Vidgen et al. (2025). **The AI Productivity Index (APEX).** [arXiv:2509.25721v6](https://arxiv.org/abs/2509.25721v6). Report accompanying APEX-v1-extended.
+[14] Vidgen et al. (2025). **The AI Productivity Index (APEX).** [arXiv:2509.25721v6](https://arxiv.org/abs/2509.25721v6). This report accompanies APEX-v1-extended.
 
 [15] Fu and Liu (2025). **How Reliable is Multilingual LLM-as-a-Judge?** Findings of EMNLP, 11040–11053. [Paper and proceedings record](https://aclanthology.org/2025.findings-emnlp.587/).
 

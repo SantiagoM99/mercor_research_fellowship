@@ -21,7 +21,7 @@ python3 scripts/check_extraction_scope.py
 python3 -m unittest discover -s tests
 ```
 
-Reports are written under analysis/. These commands preserve frozen requests and raw model outputs under runs/. The test suite covers numerical reproduction, response parsing, paired controls, missing results and acceptance-bound calculations.
+Reports are written under `analysis/`. These commands preserve the frozen requests and raw model outputs under `runs/`. The test suite covers numerical reproduction, response parsing, paired controls, missing results and acceptance-bound calculations.
 
 ## Figures and readable reports
 
@@ -50,10 +50,10 @@ The first two plotting commands regenerate the figures used in the proposal PDFs
 .venv/bin/python scripts/family_acceptance.py run
 ```
 
-This reruns the seeded 24-scenario simulation in experiments/family-acceptance-v1.json using NumPy. It writes analysis/family-acceptance-v1.json. Simulations check the implementation under specified scenarios; they do not establish the sampling assumptions for a real APEX acceptance audit.
+This reruns the seeded 24-scenario simulation in `experiments/family-acceptance-v1.json` using NumPy. It writes the results to `analysis/family-acceptance-v1.json`. Simulations check the implementation under specified scenarios; they do not establish the sampling assumptions for a real APEX acceptance audit.
 
 ## New inference runs
 
-Recomputing the recorded results does not require Ollama or model weights. New model runs do require a local Ollama server and the matching model configuration. The study entry points are scripts/model_comparison.py, scripts/numeric_intervention.py, scripts/content_paraphrase.py and scripts/boundary_format.py; each exposes its options through --help. Use a separate output directory for new inference so the submitted execution record remains intact. Changes to weights or runtime can change outputs even with the same prompts.
+Recomputing the recorded results does not require Ollama or model weights. New model runs do require a local Ollama server and the matching model configuration. The study entry points are `scripts/model_comparison.py`, `scripts/numeric_intervention.py`, `scripts/content_paraphrase.py` and `scripts/boundary_format.py`. Run any of them with `--help` to see its options. Use a separate output directory for new inference so the submitted execution record remains intact. Changes to weights or runtime can change outputs even with the same prompts.
 
-The data manifest records public-source URLs and SHA-256 hashes. scripts/fetch_apex.py can restore source data when needed, but fetching requires network access. The archived studies use the checked-in grading templates and selected public cases, not Mercor's private reference configuration.
+The data manifest records public-source URLs and SHA-256 hashes. `scripts/fetch_apex.py` can restore source data when needed, but fetching requires network access. The archived studies use the checked-in grading templates and selected public cases, not Mercor's private reference configuration.

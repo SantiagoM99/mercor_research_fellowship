@@ -1,22 +1,22 @@
 # APEX-Invariance: who grades the grader?
 
-Research proposal and reproducible preliminary experiments by Santiago Martínez Novoa for the Mercor Research Fellowship, Novel Evaluation Methodology.
+This repository contains my proposal and reproducible preliminary experiments for the Mercor Research Fellowship in Novel Evaluation Methodology. I am Santiago Martínez Novoa from Universidad de los Andes in Bogotá.
 
-**Which kinds of work will a new APEX judge grade more reliably, and where will it introduce errors?** The proposed evaluation follows rubric criteria through controlled changes to professional deliverables, then tests whether diagnosing those changes improves grading decisions or review cost.
+**Which kinds of work will a new APEX judge grade more reliably, and where will it introduce errors?** I propose following rubric criteria through controlled changes to professional deliverables, then testing whether those comparisons lead to more reliable grading or lower review cost.
 
 ## Read the proposal
 
-- [One-page pitch (PDF)](submission/APEX-Invariance%20-%20One-Page%20Pitch.pdf)
-- [Full proposal (PDF)](submission/APEX-Invariance%20-%20Full%20Proposal.pdf): methodology, preliminary results, workplan, hypotheses and sixteen references
-- [Research hypotheses](proposal/Hypotheses.md) and [references](proposal/References.md)
+- Start with the [one-page pitch (PDF)](submission/APEX-Invariance%20-%20One-Page%20Pitch.pdf) for the question, preliminary evidence and proposed collaboration.
+- Read the [full proposal (PDF)](submission/APEX-Invariance%20-%20Full%20Proposal.pdf) for the methodology, results, workplan, hypotheses and sixteen references.
+- Consult the [research hypotheses](proposal/Hypotheses.md) and [references](proposal/References.md) directly in the repository.
 
 ## Check the supporting evidence
 
-The [evidence guide](analysis/README.md) connects the proposal's numerical claims to recorded results and reproduction scripts. Preparation includes an audit of 100 public tasks, 19 source-reproduced numeric criteria and 2,394 valid local judgments across four studies.
+The [evidence guide](analysis/README.md) connects the proposal's numerical claims to recorded results and reproduction scripts. I audited 100 public tasks, reproduced 19 numeric criteria from source files and collected 2,394 valid local judgments across four studies.
 
 ![Equal total error can conceal opposite grading errors](figures/acceptance_single.png)
 
-These studies use constructed controls and local Qwen/Gemma judges. They establish test cases and limitations of the instrument; they do not establish failures in Mercor's reference judge. The complete records retain negative results, repeated calls and failed attempts. Independent professional validation and testing on natural agent responses are proposed fellowship work.
+These studies use constructed controls and local Qwen and Gemma judges. They establish test cases and expose limitations in the evaluation method; they do not establish failures in Mercor's reference judge. The complete records retain negative results, repeated calls and failed attempts. During the fellowship, I would work with Mercor's experts to validate the method independently and test it on natural agent responses.
 
 ## Reproduce the results
 
@@ -37,4 +37,4 @@ The public development data come from [Mercor's APEX-v1-extended release](https:
 
 ## License and citation
 
-Code under `scripts/` and `tests/` is MIT licensed (`LICENSE`). The proposal, pitch, protocols, reports and figures are licensed CC BY-NC-ND 4.0 (`LICENSE-CONTENT.md`): share them unchanged with attribution; no derivatives or commercial use without permission. Redistributed APEX data and Mercor's public scoring code keep their own terms, included alongside them. Cite with `CITATION.cff`. First public version: 14 September 2026; the commit history dates every component.
+Code under `scripts/` and `tests/` is licensed under the [MIT License](LICENSE). The proposal, pitch, protocols, reports and figures are licensed under [CC BY-NC-ND 4.0](LICENSE-CONTENT.md). You may share those materials unchanged with attribution; derivative works and commercial use require permission. Redistributed APEX data and Mercor's public scoring code retain their own terms, which are included alongside them. Use [CITATION.cff](CITATION.cff) to cite this work. The first public version was released on 14 September 2026, and the commit history records subsequent changes.
